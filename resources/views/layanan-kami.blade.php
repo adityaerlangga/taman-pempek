@@ -1,16 +1,16 @@
-@extends('templates.default')
+@extends('templates.default-home')
 
 @section('content')
     <!-- about breadcrumb area start -->
     <section class="breadcrumb__area breadcrumb-style pt-130 pb-115 p-relative z-index-1"
-        data-background="assets/img/breadcrumb/breadcrumb-bg-1.jpg">
+        data-background="/home-assets/img/breadcrumb/breadcrumb-bg-1.jpg">
         <div class="breadcrumb__bg-overlay m-img"></div>
         <div class="breadcrumb-shape d-none d-lg-block">
             <div class="shape-1">
-                <img src="assets/img/breadcrumb/breadcrumb-shape.png" alt="">
+                <img src="/home-assets/img/breadcrumb/breadcrumb-shape.png" alt="">
             </div>
             <div class="shape-2">
-                <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
+                <img src="/home-assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
             </div>
         </div>
         <div class="container">
@@ -33,8 +33,8 @@
     <!-- our service area start -->
     <section class="tp-service-breadcrumb-area fix pt-120 pb-90 p-relative">
         <div class="tp-service-breadcrumb-shape d-none d-lg-block">
-            <img class="shape-1" src="assets/img/services/service-details/bubble-1.png" alt="">
-            <img class="shape-2" src="assets/img/services/service-details/bubble-2.png" alt="">
+            <img class="shape-1" src="/home-assets/img/services/service-details/bubble-1.png" alt="">
+            <img class="shape-2" src="/home-assets/img/services/service-details/bubble-2.png" alt="">
         </div>
         <div class="container">
             <div class="row">
@@ -42,10 +42,10 @@
                     <div class="tp-service-2-item p-relative mb-30 wow fadeInUp" data-wow-duration="1s"
                         data-wow-delay=".3s">
                         <div class="item-2-shape">
-                            <img src="assets/img/services/home-2/shape.png" alt="">
+                            <img src="/home-assets/img/services/home-2/shape.png" alt="">
                         </div>
                         <div class="tp-service-2-thumb text-center">
-                            <img src="assets/img/services/home-2/img-1.jpg" alt="">
+                            <img src="/home-assets/img/services/home-2/img-1.jpg" alt="">
                         </div>
                         <div class="tp-service-2-icon text-center">
                             <i class="flaticon-house-cleaning"></i>
@@ -60,10 +60,10 @@
                     <div class="tp-service-2-item p-relative mb-30 wow fadeInUp" data-wow-duration="1s"
                         data-wow-delay=".4s">
                         <div class="item-2-shape">
-                            <img src="assets/img/services/home-2/shape.png" alt="">
+                            <img src="/home-assets/img/services/home-2/shape.png" alt="">
                         </div>
                         <div class="tp-service-2-thumb text-center">
-                            <img src="assets/img/services/home-2/img-2.jpg" alt="">
+                            <img src="/home-assets/img/services/home-2/img-2.jpg" alt="">
                         </div>
                         <div class="tp-service-2-icon text-center">
                             <i class="flaticon-workplace"></i>
@@ -78,10 +78,10 @@
                     <div class="tp-service-2-item p-relative mb-30 wow fadeInUp" data-wow-duration="1s"
                         data-wow-delay=".5s">
                         <div class="item-2-shape">
-                            <img src="assets/img/services/home-2/shape.png" alt="">
+                            <img src="/home-assets/img/services/home-2/shape.png" alt="">
                         </div>
                         <div class="tp-service-2-thumb text-center">
-                            <img src="assets/img/services/home-2/img-3.jpg" alt="">
+                            <img src="/home-assets/img/services/home-2/img-3.jpg" alt="">
                         </div>
                         <div class="tp-service-2-icon text-center">
                             <i class="flaticon-window-cleaning"></i>
@@ -96,10 +96,10 @@
                     <div class="tp-service-2-item p-relative mb-30 wow fadeInUp" data-wow-duration="1s"
                         data-wow-delay=".6s">
                         <div class="item-2-shape">
-                            <img src="assets/img/services/home-2/shape.png" alt="">
+                            <img src="/home-assets/img/services/home-2/shape.png" alt="">
                         </div>
                         <div class="tp-service-2-thumb text-center">
-                            <img src="assets/img/services/home-2/img-4.jpg" alt="">
+                            <img src="/home-assets/img/services/home-2/img-4.jpg" alt="">
                         </div>
                         <div class="tp-service-2-icon text-center">
                             <i class="flaticon-mop"></i>
@@ -114,10 +114,10 @@
                     <div class="tp-service-2-item p-relative mb-30 wow fadeInUp" data-wow-duration="1s"
                         data-wow-delay=".7s">
                         <div class="item-2-shape">
-                            <img src="assets/img/services/home-2/shape.png" alt="">
+                            <img src="/home-assets/img/services/home-2/shape.png" alt="">
                         </div>
                         <div class="tp-service-2-thumb text-center">
-                            <img src="assets/img/services/home-2/img-5.jpg" alt="">
+                            <img src="/home-assets/img/services/home-2/img-5.jpg" alt="">
                         </div>
                         <div class="tp-service-2-icon text-center">
                             <i class="flaticon-house-cleaning"></i>
@@ -132,10 +132,10 @@
                     <div class="tp-service-2-item p-relative mb-30 wow fadeInUp" data-wow-duration="1s"
                         data-wow-delay=".8s">
                         <div class="item-2-shape">
-                            <img src="assets/img/services/home-2/shape.png" alt="">
+                            <img src="/home-assets/img/services/home-2/shape.png" alt="">
                         </div>
                         <div class="tp-service-2-thumb text-center">
-                            <img src="assets/img/services/home-2/img-6.jpg" alt="">
+                            <img src="/home-assets/img/services/home-2/img-6.jpg" alt="">
                         </div>
                         <div class="tp-service-2-icon text-center">
                             <i class="flaticon-workplace"></i>
@@ -150,10 +150,10 @@
                     <div class="tp-service-2-item p-relative mb-30 wow fadeInUp" data-wow-duration="1s"
                         data-wow-delay=".9s">
                         <div class="item-2-shape">
-                            <img src="assets/img/services/home-2/shape.png" alt="">
+                            <img src="/home-assets/img/services/home-2/shape.png" alt="">
                         </div>
                         <div class="tp-service-2-thumb text-center">
-                            <img src="assets/img/services/home-2/img-7.jpg" alt="">
+                            <img src="/home-assets/img/services/home-2/img-7.jpg" alt="">
                         </div>
                         <div class="tp-service-2-icon text-center">
                             <i class="flaticon-window-cleaning"></i>
@@ -168,10 +168,10 @@
                     <div class="tp-service-2-item p-relative mb-30 wow fadeInUp" data-wow-duration="1s"
                         data-wow-delay="1s">
                         <div class="item-2-shape">
-                            <img src="assets/img/services/home-2/shape.png" alt="">
+                            <img src="/home-assets/img/services/home-2/shape.png" alt="">
                         </div>
                         <div class="tp-service-2-thumb text-center">
-                            <img src="assets/img/services/home-2/img-8.jpg" alt="">
+                            <img src="/home-assets/img/services/home-2/img-8.jpg" alt="">
                         </div>
                         <div class="tp-service-2-icon text-center">
                             <i class="flaticon-mop"></i>
@@ -193,13 +193,13 @@
             <div class="tp-counter-2-wrapper p-relative">
                 <div class="tp-counter-2-shape">
                     <div class="shape-1 d-none d-lg-block">
-                        <img src="assets/img/counter/bubble-1.png" alt="">
+                        <img src="/home-assets/img/counter/bubble-1.png" alt="">
                     </div>
                     <div class="shape-2 d-none d-lg-block">
-                        <img src="assets/img/counter/bubble-2.png" alt="">
+                        <img src="/home-assets/img/counter/bubble-2.png" alt="">
                     </div>
                     <div class="shape-3 d-none d-lg-block">
-                        <img src="assets/img/counter/bubble-3.png" alt="">
+                        <img src="/home-assets/img/counter/bubble-3.png" alt="">
                     </div>
                 </div>
                 <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
@@ -226,7 +226,7 @@
                                 <p>Team Mamber</p>
                             </div>
                             <div class="tp-counter-2-shape-2">
-                                <img src="assets/img/counter/shape-3.png" alt="">
+                                <img src="/home-assets/img/counter/shape-3.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -241,7 +241,7 @@
                                 <p>Award Winning</p>
                             </div>
                             <div class="tp-counter-2-shape-3 d-none d-lg-block">
-                                <img src="assets/img/counter/shape-3.png" alt="">
+                                <img src="/home-assets/img/counter/shape-3.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -256,7 +256,7 @@
                                 <p>Project Complete</p>
                             </div>
                             <div class="tp-counter-2-shape-4">
-                                <img src="assets/img/counter/shape-3.png" alt="">
+                                <img src="/home-assets/img/counter/shape-3.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -267,11 +267,11 @@
     <!-- fun fact area end -->
 
     <!-- testimonial area start -->
-    <section class="tp-testimonial-3-area p-relative pt-120" data-background="assets/img/testimonial/home-3/img-1.jpg">
+    <section class="tp-testimonial-3-area p-relative pt-120" data-background="/home-assets/img/testimonial/home-3/img-1.jpg">
         <div class="tp-testimonial-3-overlay"></div>
         <div class="tp-testimonial-3-shape">
-            <img class="shape-1" src="assets/img/testimonial/home-3/bubble-1.png" alt="">
-            <img class="shape-2" src="assets/img/testimonial/home-3/bubble-2.png" alt="">
+            <img class="shape-1" src="/home-assets/img/testimonial/home-3/bubble-1.png" alt="">
+            <img class="shape-2" src="/home-assets/img/testimonial/home-3/bubble-2.png" alt="">
         </div>
         <div class="container">
             <div class="row">
@@ -296,7 +296,7 @@
                                 <div class="splide__slide">
                                     <div class="tp-testimonial-2-wrapper">
                                         <div class="tp-testimonial-2-shape">
-                                            <img src="assets/img/testimonial/home-2/shape.png" alt="">
+                                            <img src="/home-assets/img/testimonial/home-2/shape.png" alt="">
                                         </div>
                                         <p>“Galley of type and scrambled it to make type specimen book. It has survived not
                                             only five centuries, but also the leap into electronic typesetting chunks first
@@ -309,7 +309,7 @@
                                 <div class="splide__slide">
                                     <div class="tp-testimonial-2-wrapper">
                                         <div class="tp-testimonial-2-shape">
-                                            <img src="assets/img/testimonial/home-2/shape.png" alt="">
+                                            <img src="/home-assets/img/testimonial/home-2/shape.png" alt="">
                                         </div>
                                         <p>“Galley of type and scrambled it to make type specimen book. It has survived not
                                             only five centuries, but also the leap into electronic typesetting chunks first
@@ -324,8 +324,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-                    <div class="tp-testimonial-3-from p-relative" data-background="assets/img/brand/home-2/form-img.jpg"
-                        style="background-image: url(_assets/img/brand/home-2/form-img.html);">
+                    <div class="tp-testimonial-3-from p-relative" data-background="/home-assets/img/brand/home-2/form-img.jpg"
+                        style="background-image: url(_/home-assets/img/brand/home-2/form-img.html);">
                         <div class="tp-brands-from-overlay"></div>
                         <span class="tp-section__title-pre">GET A FREE QUOTE</span>
                         <h3 class="tp-brands-title">GET A FREE QUOTE</h3>

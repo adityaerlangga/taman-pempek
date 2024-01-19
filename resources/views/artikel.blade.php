@@ -1,16 +1,16 @@
-@extends('templates.default')
+@extends('templates.default-home')
 
 @section('content')
     <!-- about breadcrumb area start -->
     <section class="breadcrumb__area breadcrumb-style pt-130 pb-115 p-relative z-index-1"
-        data-background="assets/img/breadcrumb/breadcrumb-bg-1.jpg">
+        data-background="/home-assets/img/breadcrumb/breadcrumb-bg-1.jpg">
         <div class="breadcrumb__bg-overlay m-img"></div>
         <div class="breadcrumb-shape  d-none d-lg-block">
             <div class="shape-1">
-                <img src="assets/img/breadcrumb/breadcrumb-shape.png" alt="">
+                <img src="/home-assets/img/breadcrumb/breadcrumb-shape.png" alt="">
             </div>
             <div class="shape-2">
-                <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
+                <img src="/home-assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
             </div>
         </div>
         <div class="container">
@@ -38,7 +38,7 @@
                     <div class="tp-blog-right-box">
                         <div class="tp-blog-content-wrapper mb-60">
                             <div class="tp-blog-breadcrumb-thumb p-relative">
-                                <a href="blog-details.html"><img src="assets/img/blog/blog/img-6.jpg" alt=""></a>
+                                <a href="blog-details.html"><img src="/home-assets/img/blog/blog/img-6.jpg" alt=""></a>
                                 <span class="tp-section__title-pre">12-March-2022</span>
                             </div>
                             <div class="tp-blog-breadcrumb-inner-content">
@@ -55,7 +55,7 @@
                         </div>
                         <div class="tp-blog-content-wrapper mb-60">
                             <div class="tp-blog-breadcrumb-thumb p-relative">
-                                <a href="blog-details.html"><img src="assets/img/blog/blog/img-7.jpg" alt=""></a>
+                                <a href="blog-details.html"><img src="/home-assets/img/blog/blog/img-7.jpg" alt=""></a>
                                 <span class="tp-section__title-pre">18-july-2022</span>
                             </div>
                             <div class="tp-blog-breadcrumb-inner-content">
@@ -72,7 +72,7 @@
                         </div>
                         <div class="tp-blog-content-wrapper mb-60">
                             <div class="tp-blog-breadcrumb-thumb p-relative">
-                                <a href="blog-details.html"><img src="assets/img/blog/blog/img-8.jpg" alt=""></a>
+                                <a href="blog-details.html"><img src="/home-assets/img/blog/blog/img-8.jpg" alt=""></a>
                                 <span class="tp-section__title-pre">2-april-2022</span>
                             </div>
                             <div class="tp-blog-breadcrumb-inner-content">
@@ -90,7 +90,7 @@
                         </div>
                         <div class="tp-blog-content-wrapper mb-60">
                             <div class="tp-blog-breadcrumb-thumb p-relative">
-                                <a href="blog-details.html"><img src="assets/img/blog/blog/img-9.jpg" alt=""></a>
+                                <a href="blog-details.html"><img src="/home-assets/img/blog/blog/img-9.jpg" alt=""></a>
                                 <span class="tp-section__title-pre">8-january-2022</span>
                             </div>
                             <div class="tp-blog-breadcrumb-inner-content">
@@ -158,7 +158,7 @@
                                     <div class="rc__post ">
                                         <div class="rc__post d-flex align-items-center">
                                             <div class="rc__post-thumb">
-                                                <a href="blog-details.html"><img src="assets/img/blog/blog/img.jpg"
+                                                <a href="blog-details.html"><img src="/home-assets/img/blog/blog/img.jpg"
                                                         alt=""></a>
                                             </div>
                                             <div class="rc__post-content">
@@ -174,7 +174,7 @@
                                     <div class="rc__post ">
                                         <div class="rc__post d-flex align-items-center">
                                             <div class="rc__post-thumb">
-                                                <a href="blog-details.html"><img src="assets/img/blog/blog/img-2.jpg"
+                                                <a href="blog-details.html"><img src="/home-assets/img/blog/blog/img-2.jpg"
                                                         alt=""></a>
                                             </div>
                                             <div class="rc__post-content">
@@ -190,7 +190,7 @@
                                     <div class="rc__post ">
                                         <div class="rc__post d-flex align-items-center">
                                             <div class="rc__post-thumb">
-                                                <a href="blog-details.html"><img src="assets/img/blog/blog/img-3.jpg"
+                                                <a href="blog-details.html"><img src="/home-assets/img/blog/blog/img-3.jpg"
                                                         alt=""></a>
                                             </div>
                                             <div class="rc__post-content">
@@ -206,7 +206,7 @@
                                     <div class="rc__post ">
                                         <div class="rc__post d-flex align-items-center">
                                             <div class="rc__post-thumb">
-                                                <a href="blog-details.html"><img src="assets/img/blog/blog/img-4.jpg"
+                                                <a href="blog-details.html"><img src="/home-assets/img/blog/blog/img-4.jpg"
                                                         alt=""></a>
                                             </div>
                                             <div class="rc__post-content">

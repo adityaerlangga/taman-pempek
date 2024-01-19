@@ -1,0 +1,14 @@
+.app-content {
+    margin-top: 0px !important;
+}
+
+
+@media (max-width:1200px){
+    .app-content {
+        margin-top: 100px !important;
+    }
+
+    .sidebar-user-switcher a {
+        display: none !important;
+    }
+}
