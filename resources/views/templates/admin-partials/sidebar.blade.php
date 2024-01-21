@@ -37,6 +37,12 @@
             <li class="{{ Request::is('page/artikel') ? 'active-page' : '' }}">
                 <a href="/page/artikel" class="active"><i class="material-icons-two-tone">language</i>Artikel</a>
             </li>
+            <li class="sidebar-title">
+                OTHER
+            </li>
+            <li>
+                <a href="/logout" class="active"><i class="material-icons-two-tone">logout</i>Logout</a>
+            </li>
         </ul>
     </div>
 </div>

@@ -11,4 +11,5 @@
     <script src="/admin-assets/js/custom.js"></script>
     <script src="/admin-assets/js/pages/dashboard.js"></script>
     <script src="/admin-assets/js/pages/datatables.js"></script>
+    <script src="/admin-assets/js/pages/sweetalert2.js"></script>
     @

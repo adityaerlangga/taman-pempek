@@ -18,9 +18,16 @@ class AdminController extends Controller
         return view('admin.order')->with('faker', $faker);
     }
 
+    public function order_detail($order_id)
+    {
+        $faker = Faker::create();
+        return view('admin.order_detail')->with('faker', $faker);
+    }
+
     public function page_home()
     {
         return view('admin.website.home');
     }
+
 
 }
