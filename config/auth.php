@@ -63,6 +63,9 @@ return [
         'users' => [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
+            'table' => 'users',
+            'email' => 'user_email',
+            'password' => 'user_password',
         ],
 
         // 'users' => [

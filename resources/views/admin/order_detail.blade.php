@@ -1,5 +1,13 @@
 @extends('templates.default-admin')
 
+@section('css')
+    <style>
+        #table-1 tr td:nth-child(2) {
+            padding: 0 5px;
+        }
+    </style>
+@endsection
+
 @section('content')
     <div class="app-content">
         <div class="content-wrapper">
@@ -16,7 +24,7 @@
                         <div class="card-title">Detail Pesanan #ID-82183645</div>
                     </div>
                     <div class="card-body">
-                        <table>
+                        <table id="table-1">
                             <tr>
                                 <td>Order ID</td>
                                 <td>:</td>
@@ -62,18 +70,37 @@
                                 <td>:</td>
                                 <td>Jl. Raya Bogor KM 30</td>
                             </tr>
-
-                            <tr>
-                                <td>Kategori</td>
-                                <td>:</td>
-                                <td>Daily Cleaning 1 Jam</td>
-                            </tr>
-                            {{-- total --}}
                             <tr>
                                 <td>Total</td>
                                 <td>:</td>
                                 <td>Rp 100.000</td>
                             </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <table id="my-table" class="display" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Kategori Produk</th>
+                                    <th>Produk</th>
+                                    <th>Quantity</th>
+                                    <th>Harga</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @for ($i = 1; $i <= 3; $i++)
+                                    <tr>
+                                        <td>{{ $i }}</td>
+                                        <td>Daily Cleaning</td>
+                                        <td>Daily Cleaning - {{ $i }} Jam</td>
+                                        <td>1</td>
+                                        <td>Rp {{ 80 * $i }}.000,-</td>
+                                    </tr>
+                                @endfor
+                            </tbody>
                         </table>
                     </div>
                 </div>
@@ -83,6 +110,10 @@
 @endsection
 
 @section('javascript')
-<script>
-</script>
+    <script>
+        $('#my-table').DataTable({
+            responsive: true,
+            "paging": true,
+        });
+    </script>
 @endsection

@@ -7,7 +7,7 @@
     <meta name="author" content="stacks">
 
     <!-- Title -->
-    <title>Catalyst - Admin Dashboard</title>
+    <title>Taman Pempek - Admin Dashboard</title>
 
     <!-- Styles -->
     <link rel="preconnect" href="https://fonts.gstatic.com/">

@@ -27,9 +27,9 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="widget-popular-blog-container">
-                                    Selamat datang di Admin Dashboard Catalyst - Home Cleaning Service! Kami sangat senang
+                                    Selamat datang di Admin Dashboard Taman Pempek - Home Cleaning Service! Kami sangat senang
                                     dan antusias menyambut Anda sebagai bagian dari tim administrator di dashboard website
-                                    kami. Catalyst Home Cleaning Service merupakan platform yang didedikasikan untuk
+                                    kami. Taman Pempek Home Cleaning Service merupakan platform yang didedikasikan untuk
                                     memberikan layanan pembersihan rumah yang berkualitas tinggi dan penuh perhatian kepada
                                     pelanggan kami. Dengan kehadiran Anda di dalam tim, kami yakin bahwa kita dapat mencapai
                                     tingkat keunggulan yang lebih tinggi dalam memberikan pelayanan terbaik kepada pengguna
@@ -45,10 +45,4 @@
 @endsection
 
 @section('javascript')
-    <script>
-        // hide alert after 2.5 seconds with slow fadeout effect
-        $(".alert").delay(2500).slideUp(500, function() {
-            $(this).alert('close');
-        });
-    </script>
 @endsection

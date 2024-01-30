@@ -1,8 +1,11 @@
 <?php
 
-use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\Admin\ProductCategoryController;
+use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\Admin\TransactionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,8 +32,23 @@ Route::post('/check_login', [AuthController::class, 'check_login']);
 
 Route::group(['middleware' => ['isLogin']], function () {
     Route::get('/admin', [AdminController::class, 'index'])->name('dashboard');
-    Route::get('/order', [AdminController::class, 'order']);
-    Route::get('/order/detail/{order_id}', [AdminController::class, 'order_detail']);
+
+    Route::get('/order', [TransactionController::class, 'order']);
+    Route::get('/order/detail/{order_id}', [TransactionController::class, 'order_detail']);
+
+    Route::get('/product_categories', [ProductCategoryController::class, 'index']);
+    Route::get('/product_categories/create', [ProductCategoryController::class, 'create']);
+    Route::post('/product_categories/store', [ProductCategoryController::class, 'store']);
+    Route::get('/product_categories/delete/{product_category_code}', [ProductCategoryController::class, 'delete']);
+    Route::get('/product_categories/edit/{product_category_code}', [ProductCategoryController::class, 'edit']);
+    Route::post('/product_categories/update', [ProductCategoryController::class, 'update']);
+
+    Route::get('/products', [ProductController::class, 'index']);
+    Route::get('/products/create', [ProductController::class, 'create']);
+    Route::post('/products/store', [ProductController::class, 'store']);
+    Route::get('/products/delete/{product_category_code}', [ProductController::class, 'delete']);
+    Route::get('/products/edit/{product_category_code}', [ProductController::class, 'edit']);
+    Route::post('/products/update', [ProductController::class, 'update']);
 
 
     Route::prefix('page')->group(function () {

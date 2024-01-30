@@ -13,7 +13,7 @@
     <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Catalyst - Login Dashboard</title>
+    <title>Taman Pempek - Login Dashboard</title>
 
     <!-- Styles -->
     <link rel="preconnect" href="https://fonts.gstatic.com/">
@@ -39,7 +39,7 @@
         </div>
         <div class="app-auth-container">
             <div class="logo">
-                <a href="#">Catalyst Laundry</a>
+                <a href="#">Taman Pempek</a>
             </div>
 
             <p class="auth-description">Please sign-in to your account and continue to the dashboard.</p>

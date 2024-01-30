@@ -217,7 +217,7 @@
                                 <i class="flaticon-medal"></i>
                             </div>
                             <div class="tp-about-inner-text">
-                                <h4>CATALYST</h4>
+                                <h4>Taman Pempek</h4>
                                 <p>Standard dummy text ever since the unknown printer <br> took Standard dummy text ever
                                     since the unknown <br> printer took.</p>
                             </div>

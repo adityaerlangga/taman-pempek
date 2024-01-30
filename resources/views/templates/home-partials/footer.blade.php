@@ -111,7 +111,7 @@
        <div class="container">
           <div class="row align-items-center justify-content-center">
              <div class="col-lg-12">
-                <p class="text-center">Copyright © 2023 Catalyst. All Rights Reserved</p>
+                <p class="text-center">Copyright © 2023 Taman Pempek. All Rights Reserved</p>
              </div>
           </div>
        </div>

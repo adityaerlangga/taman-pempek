@@ -1,17 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
-use Illuminate\Http\Request;
+
 use Faker\Factory as Faker;
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
-class AdminController extends Controller
+class TransactionController extends Controller
 {
-    public function index()
-    {
-        return view('admin.index');
-    }
-
     public function order()
     {
         $faker = Faker::create();
@@ -23,11 +20,4 @@ class AdminController extends Controller
         $faker = Faker::create();
         return view('admin.order_detail')->with('faker', $faker);
     }
-
-    public function page_home()
-    {
-        return view('admin.website.home');
-    }
-
-
 }
